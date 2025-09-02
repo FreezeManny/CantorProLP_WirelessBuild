@@ -1,9 +1,3 @@
-// | SW00 | SW01 | SW02 | SW03 | SW04 | SW05 |   | SW05  | SW04  | SW03  | SW02  | SW01  | SW00  |
-// | SW10 | SW11 | SW12 | SW13 | SW14 | SW15 |   | SW15 | SW14 | SW13 | SW12  | SW11  | SW10  |
-// | SW20 | SW21 | SW22 | SW23 | SW24 | SW25 |   | SW25 | SW24 | SW23 | SW22 | SW21 | SW20 |
-//                      | SW30 | SW31 | SW32 |   | SW32 | SW31 | SW30 |
- 
-
 
              //<&gpio0 29, //SW00
             //<&gpio0 20, //SW01
