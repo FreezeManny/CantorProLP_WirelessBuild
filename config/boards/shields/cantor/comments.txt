@@ -1,0 +1,32 @@
+// | SW00 | SW01 | SW02 | SW03 | SW04 | SW05 |   | SW05  | SW04  | SW03  | SW02  | SW01  | SW00  |
+// | SW10 | SW11 | SW12 | SW13 | SW14 | SW15 |   | SW15 | SW14 | SW13 | SW12  | SW11  | SW10  |
+// | SW20 | SW21 | SW22 | SW23 | SW24 | SW25 |   | SW25 | SW24 | SW23 | SW22 | SW21 | SW20 |
+//                      | SW30 | SW31 | SW32 |   | SW32 | SW31 | SW30 |
+ 
+
+
+             //<&gpio0 29, //SW00
+            //<&gpio0 20, //SW01
+            //<&gpio0 31, //SW02
+            //<&gpio0 17, //SW03
+            //<&gpio0 8 , //SW04
+            //<&gpio0 6 , //SW05
+
+            //<&gpio0 22, //SW10
+            //<&gpio0 2 , //SW11
+            //<&gpio0 24, //SW12
+            //<&gpio1 15, //SW13
+            //<&gpio1 0 , //SW14
+            //<&gpio1 13, //SW15
+
+            //<&gpio1 6 , //SW20
+            //<&gpio0 9 , //SW21
+            //<&gpio0 10, //SW22
+            //<&gpio1 4 , //SW23
+            //<&gpio1 11, //SW24
+            //<&gpio0 11, //SW25
+
+            //<&gpio1 7 , //SW30
+            //<&gpio1 2 , //SW31
+            //<&gpio1 1 , //SW32
+   
