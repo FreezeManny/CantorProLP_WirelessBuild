@@ -30,32 +30,31 @@ RC(0,12) RC(0,13) RC(0,14) RC(0,15) RC(0,16) RC(0,17)   RC(0,38) RC(0,37) RC(0,3
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
-        input-gpios
-            = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW00
-            , <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW01
-            , <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW02
-            , <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW03
-            , <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW04
-            , <&gpio0 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW05
+        input-gpios = 
+            <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW00
+            <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW01
+            <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW02
+            <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW03
+            <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW04
+            <&gpio0 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW05
 
-            , <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW10
-            , <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW11
-            , <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW12
-            , <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW13
-            , <&gpio1 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW14
-            , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW15
+            <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW10
+            <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW11
+            <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW12
+            <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW13
+            <&gpio1 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW14
+            <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW15
 
-            , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW20
-            , <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW21
-            , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW22
-            , <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW23
-            , <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW24
-            , <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW25
+            <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW20
+            <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW21
+            <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW22
+            <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW23
+            <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW24
+            <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW25
 
-            , <&gpio1 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW30
-            , <&gpio1 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW31
-            , <&gpio1 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //SW32
-            ;
-    };
+            <&gpio1 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW30
+            <&gpio1 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW31
+            <&gpio1 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //SW32
+    }
 
 };
