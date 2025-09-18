@@ -11,12 +11,14 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        shift_to_delete: shift_to_delete {
-            compatible = "zmk,behavior-macro";
+    behaviors {
+        shift_delete: shift_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHIFT_DELETE";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
             #binding-cells = <0>;
-            bindings = <&kp LS(BACKSPACE) &kp DELETE>;
-            label = "SHIFT_TO_DELETE";
+            mods = <(MOD_LSFT)>;
         };
     };
 
