@@ -9,12 +9,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
+    combos { compatible = "zmk,combos"; };
 
-        shift_delete {
-            bindings = <&kp LS(DELETE)>;
-            key-positions = <11>;
+    macros {
+        shift_to_delete: shift_to_delete {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(BACKSPACE) &kp DELETE>;
+            label = "SHIFT_TO_DELETE";
         };
     };
 
@@ -29,7 +31,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q  &kp W      &kp E    &kp R  &kp T     &kp Y  &kp U  &kp I      &kp O    &kp P     &kp K_BACK
+&kp TAB     &kp Q  &kp W      &kp E    &kp R  &kp T     &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
 &kp LCTRL   &kp A  &kp S      &kp D    &kp F  &kp G     &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LGUI    &kp Z  &kp X      &kp C    &kp V  &kp B     &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
 &kp LSHIFT  &mo 1  &kp SPACE  &kp RET  &mo 2  &kp LALT
