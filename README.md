@@ -8,6 +8,7 @@ This repository contains all the files and configuration for my personal build o
 ## Table of Contents
 
 - [Hardware Components](#hardware-components)
+- [PCB](#pcb)
 - [Firmware (ZMK)](#firmware-zmk)
 - [3D Printed Case](#3d-printed-case)
 - [Build Notes](#build-notes)
