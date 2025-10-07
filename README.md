@@ -1,7 +1,6 @@
 # My Custom Cantor Pro LP Wireless Keyboard
 
-!(images/my-keyboard.jpg)
-*(You can add a picture of your completed keyboard here)*
+![Keyboard Image](images/keyboard.jpg)
 
 This repository contains all the files and configuration for my personal build of the **Cantor Pro LP**, a 40% low-profile, hotswap, split ergonomic keyboard. This build is fully wireless, using Nice!Nano controllers running the ZMK firmware.
 
@@ -22,6 +21,7 @@ This repository contains all the files and configuration for my personal build o
 | :--- | :--- | :--- |
 | **Keyboard Kit** | PCBs ordered from JLCPCB but | A kit can be sorced from 42. Keebs: [Cantor Pro LP Kit](https://42keebs.eu/shop/kits/pro-micro-based/cantor-pro-lp-40-low-profile-hotswap-split-ergo-kit/) |
 | **Small Electronics** | 2x Push Button 6x2mm & 42x Kailh Choc V1 Hotswap Sockets | Ordered from aliExpress, not needed when buying a Kit |
+| **Small Case Parts**| 4x M3 Heat insert, 4x M3 Screw | needed for securing PCB to case |
 | **Controllers** | 2x Nice!Nano v2 (or alternative) | For wireless connectivity via Bluetooth. |
 | **Batteries** | 2x 102050 LiPo (1000mAh) | One for each half. Fits perfectly with the custom case. |
 | **Switches** | 42x Kailh Choc V1 `[Your Switch Type]` | in my case: Sunset, waiting for sunrise |
@@ -49,10 +49,14 @@ This keyboard runs on the [ZMK Firmware](https://zmk.dev/docs), which is designe
 ---
 
 ## 3D Printed Case
+![Case Image](images/case.jpg)
+![Case and Keyboard Image](images/caseAndKeyboard.jpg)
 
 This build uses a custom-designed 3D printed case and a friction fit travel cover to protect the keys.
-
+It was built in Fusion360 and source files, as well as Step files are shared. (because STL sucks)
 * **Files Location:** `/case`
+
+Only one side is provided. To print the other half, mirror the files in the slicer. 
 
 ### Recommended Print Settings
 
