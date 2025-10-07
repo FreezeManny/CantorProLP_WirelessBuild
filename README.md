@@ -24,8 +24,8 @@ This repository contains all the files and configuration for my personal build o
 | **Small Case Parts**| 4x M3 Heat insert, 4x M3 Screw | needed for securing PCB to case |
 | **Controllers** | 2x Nice!Nano v2 (or alternative) | For wireless connectivity via Bluetooth. |
 | **Batteries** | 2x 102050 LiPo (1000mAh) | One for each half. Fits perfectly with the custom case. |
-| **Switches** | 42x Kailh Choc V1 `[Your Switch Type]` | in my case: Sunset, waiting for sunrise |
-| **Keycaps** | 42x `[Your Keycap Set]` | e.g., MBK Blank Choc Keycaps. |
+| **Switches** | 42x Kailh Choc V1  | in my case: Sunset, waiting for sunrise |
+| **Keycaps** | 42x Choc V1 Keycaps` | e.g., MBK Blank Choc Keycaps. |
 | **Case** | Custom 3D Printed Case & Cover | Files are located in the `/case` directory. |
 
 ---
