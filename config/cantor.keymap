@@ -20,6 +20,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        shift_slash: shift_slash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHIFT_SLASH";
+            bindings = <&kp FSLH>, <&kp BSLH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     macros {
