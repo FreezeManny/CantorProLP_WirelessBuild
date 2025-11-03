@@ -22,6 +22,36 @@
         };
     };
 
+    macros {
+        a_umlaut: a_umlaut {
+            compatible = "zmk,behavior-macro";
+            label = "A_UMLAUT";
+            #binding-cells = <0>;
+            bindings = <&kp RA(Q)>;
+        };
+
+        u_umlaut: u_umlaut {
+            compatible = "zmk,behavior-macro";
+            label = "U_UMLAUT";
+            #binding-cells = <0>;
+            bindings = <&kp RA(Y)>;
+        };
+
+        o_umlaut: o_umlaut {
+            compatible = "zmk,behavior-macro";
+            label = "O_UMLAUT";
+            #binding-cells = <0>;
+            bindings = <&kp RA(P)>;
+        };
+
+        sz_ligature: sz_ligature {
+            compatible = "zmk,behavior-macro";
+            label = "SZ_LIGATURE";
+            #binding-cells = <0>;
+            bindings = <&kp RA(S)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
