@@ -112,9 +112,9 @@
 
         combined_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp C_VOLUME_UP    &none          &none        &none  &kp C_BRIGHTNESS_INC  &none
-&none       &none         &none         &none         &none         &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp PAGE_UP  &none  &kp C_BRIGHTNESS_DEC  &none
-&none       &none         &none         &none         &none         &none            &kp K_MUTE         &none          &none        &none  &none                 &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp C_VOLUME_UP    &none             &none        &none          &kp C_BRIGHTNESS_INC  &none
+&none       &none         &none         &none         &none         &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp PAGE_DOWN     &kp PAGE_UP  &none          &kp C_BRIGHTNESS_DEC  &none
+&none       &none         &none         &none         &none         &none            &kp K_MUTE         &kp K_PLAY_PAUSE  &kp K_BACK   &kp K_FORWARD  &none                 &none
 &none       &trans        &none         &none         &trans        &none
             >;
         };
