@@ -112,9 +112,24 @@
         combined_layer {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp C_VOLUME_UP    &none             &none        &none       &kp C_BRIGHTNESS_INC  &none
-&none       &none         &none         &none         &none         &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp PAGE_DOWN     &kp PAGE_UP  &none       &kp C_BRIGHTNESS_DEC  &none
+&none       &to 0         &none         &none         &to 4         &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp PAGE_DOWN     &kp PAGE_UP  &none       &kp C_BRIGHTNESS_DEC  &none
 &none       &none         &none         &none         &none         &none            &kp K_MUTE         &kp C_PLAY_PAUSE  &kp C_PREV   &kp C_NEXT  &none                 &none
 &none       &trans        &none         &none         &trans        &none
+            >;
+        };
+
+        colemak_dh_layer {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | LALT |
+            // | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  | CAPS |
+            // | GUI  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | RALT |
+            //                    | SHFT| LWR | SPC |   | ENT | RSE  | BSPC|
+
+            bindings = <
+&kp TAB     &kp Q  &kp W      &kp F    &kp P  &kp B          &kp J  &kp L  &kp U      &kp Y    &kp SEMI      &kp LEFT_ALT
+&kp LCTRL   &kp A  &kp R      &kp S    &kp T  &kp G          &kp M  &kp N  &kp E      &kp I    &kp O         &kp CAPS
+&kp LGUI    &kp Z  &kp X      &kp C    &kp D  &kp V          &kp K  &kp H  &kp COMMA  &kp DOT  &shift_slash  &kp RIGHT_ALT
+&kp LSHIFT  &mo 1  &kp SPACE  &kp RET  &mo 2  &shift_delete
             >;
         };
     };
